@@ -1,0 +1,18 @@
+.container{
+    padding: 32px 0px;
+    width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login_block{
+    display: flex;
+    gap: 10px;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

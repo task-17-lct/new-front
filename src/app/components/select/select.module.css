@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    color: black;
+}
+
+.active{
+    color: black;
+}
+
+.disabled{
+    color: rgba(25, 24, 37, 0.50);
+}

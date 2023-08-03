@@ -1,0 +1,19 @@
+.button{
+    outline: none;
+    border: none;
+    border-radius: 1000px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.active{
+    @extend .button;
+    background-color: #5D50C6;
+    
+}
+
+.disabled{
+    @extend .button;
+    background-color: white;
+    color: black;
+}
